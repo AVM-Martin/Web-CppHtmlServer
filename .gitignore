@@ -1,0 +1,14 @@
+# ignore all files without extension
+*
+!*.*
+!*/
+
+# un-ignore important directory
+!Makefile
+!.github/*
+
+# un-ignore LICENSE file
+!LICENSE
+
+# ignore object file
+*.o
